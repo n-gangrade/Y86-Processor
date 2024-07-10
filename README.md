@@ -22,49 +22,26 @@ The memory unit takes in icode, valE, valA, valP, and the clock cycle.  Mem_addr
 This unit takes in icode, valP, valC, valM, and cnd.  Cnd is used to indicate if a jump is being made.  Depending on the current instruction, it determines what the next instruction’s address is so that the PC can go there next.  It outputs this as newPC.
 ![image](https://github.com/n-gangrade/Y86-Processor/assets/135069685/5b2e644e-3139-4f66-be14-51f1d4bfbd04)
 
-
+# Examples
 ## Test Program 1
 ![image](https://github.com/n-gangrade/Y86-Processor/assets/135069685/b5f8897f-9d94-4026-b14d-1e24d0a9d059)
 ![image](https://github.com/n-gangrade/Y86-Processor/assets/135069685/3af811e8-9078-40c5-b318-b7ad6d855318)
                 
-Changes in Registers				                                                                                  Changes in Memory
-![image](https://github.com/n-gangrade/Y86-Processor/assets/135069685/5e3de665-a9cb-4f3f-971a-cebdebb3ef1d)   ![image](https://github.com/n-gangrade/Y86-Processor/assets/135069685/a9879780-e392-4698-89ff-be81ab0e11ad)
+Changes in Registers				                                                                                  
+![image](https://github.com/n-gangrade/Y86-Processor/assets/135069685/5e3de665-a9cb-4f3f-971a-cebdebb3ef1d)   
+
+Changes in Memory
+![image](https://github.com/n-gangrade/Y86-Processor/assets/135069685/a9879780-e392-4698-89ff-be81ab0e11ad)
 
 
 
 
-Test Program 2
+# Test Program 2
+![image](https://github.com/n-gangrade/Y86-Processor/assets/135069685/6c32cb74-892a-468f-83fa-756e37cd4b3a)
+![image](https://github.com/n-gangrade/Y86-Processor/assets/135069685/7ea4e779-b2fe-4e43-a731-7e73a90cfe77)
 
+Changes in Registers
+![image](https://github.com/n-gangrade/Y86-Processor/assets/135069685/8b085fab-c1b8-4d2b-9977-df251983927a)
 
-                  Changes in Registers					Changes in Memory
-Test 3
-
-                    
-Changes in Registers					Changes in Memory
-Test 4
-
-
-
-
-
-
-Changes in Registers					Changes in Memory
-
-
-
-
-
-
-
-
-
-
-
-
-
-The test cases combined contain each of the instructions:
-Test 1: irmovq, nop, OPq, rmmovq, halt
-Test 2: …, rrmovq,  jXX, 
-Test 3: …, pushq, popq
-Test 4: …, mrmovq
-
+Changes in Memory
+![image](https://github.com/n-gangrade/Y86-Processor/assets/135069685/4f39c9f5-4810-4331-93db-40b08e64688e)
