@@ -41,7 +41,9 @@ Changes in Memory
 ![image](https://github.com/n-gangrade/Y86-Processor/assets/135069685/7ea4e779-b2fe-4e43-a731-7e73a90cfe77)
 
 Changes in Registers
+
 ![image](https://github.com/n-gangrade/Y86-Processor/assets/135069685/8b085fab-c1b8-4d2b-9977-df251983927a)
 
 Changes in Memory
+
 ![image](https://github.com/n-gangrade/Y86-Processor/assets/135069685/4f39c9f5-4810-4331-93db-40b08e64688e)
